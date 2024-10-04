@@ -15,6 +15,7 @@ public class CollectionUsuario {
 	            usuario.mostrarDatos();
 	        }
 	   }
+	    
 	   public static Usuario buscarUsuarioPorID(String id) {
 		   for (Usuario usuario : usuarios) {
 			   if(usuario.getId().equals(id)) return usuario;
