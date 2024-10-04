@@ -1,6 +1,5 @@
 package ar.edu.unju.escmi.tp5.dominio;
 
-
 public class Alumno extends Usuario {
 	 	private int curso;
 	    private int numeroLibreta;
